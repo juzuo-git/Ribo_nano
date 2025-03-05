@@ -1,5 +1,9 @@
 # pipeline of analyzing SPARP-seq 
 
+___
+![Alt text](image.png)
+
+___
 ## 0.Preparation
 ### packages install
 
