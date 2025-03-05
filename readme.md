@@ -97,6 +97,7 @@ python extract_read_info.py --inbed {bed} --inbam {sort_bam} --out {read_info}
 
 ___
 ## Detailed information about this project
-- URL 
+- URL: *url*
   - Single-molecule Poly(A)-informed Ribosome Profiling (SPARP-seq) Reveals the Dynamic Changes of Poly(A) Tail during Translation
   - Yi Shu, Juzuo Li, Zhiyuan Sun, Yanping Li, Wenqin Lu, Yanping Long, Xi Chen, Wei Chen, Jixian Zhai
+  - *Please cite this article when using this software*
