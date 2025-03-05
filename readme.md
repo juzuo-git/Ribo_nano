@@ -92,6 +92,11 @@ python extract_read_info.py --inbed {bed} --inbam {sort_bam} --out {read_info}
 
 
 
-### 2. Analyzing monosome~polysome *n+* by jupyterlab
+## 2. Analyzing monosome~polysome *n+* by jupyterlab
 - `run Step1.ipynb in the jupyterlab enviroment`
 
+___
+## Detailed information about this project
+- URL 
+  - Single-molecule Poly(A)-informed Ribosome Profiling (SPARP-seq) Reveals the Dynamic Changes of Poly(A) Tail during Translation
+  - Yi Shu, Juzuo Li, Zhiyuan Sun, Yanping Li, Wenqin Lu, Yanping Long, Xi Chen, Wei Chen, Jixian Zhai
