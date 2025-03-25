@@ -1,8 +1,8 @@
 # pipeline of analyzing Ribo-nano
 
 ___
-![Alt text](image.png)
 
+![Alt text](image.png)
 ___
 ## 0.Preparation
 ### packages install
@@ -91,7 +91,7 @@ python extract_read_info.py --inbed {bed} --inbam {sort_bam} --out {read_info}
 - `{read_info}: Extraction of information based on read and relative position of exons and introns on the genome.`
 
 ___
-## 2. Analyzing `Ribo-nano (monosome~polysome *n+*)` by jupyterlab
+## 2. Analyzing `Ribo-nano` (monosome~polysome *n+*) by jupyterlab
 - `run main1_jupyterlab_code.ipynb in the jupyterlab enviroment`
 
 
