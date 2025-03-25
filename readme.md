@@ -96,7 +96,7 @@ ___
 
 
 ___
-## 3. Analyzing `Ribo-seq profiling` by jupyterlab
+## 3. Analyzing `Ribosome profiling` by jupyterlab
 - `run main2_jupyterlab_code.ipynb in the jupyterlab enviroment`
 
 
