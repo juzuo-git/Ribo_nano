@@ -1,4 +1,4 @@
-# pipeline of analyzing SPARP-seq 
+# pipeline of analyzing Ribo-nano
 
 ___
 ![Alt text](image.png)
@@ -13,16 +13,16 @@ Python 3.8.18 and above
 
 - recommand using conda to install all packages
 
-  - `conda create -n SPARP_env python==3.8`
-  - `conda activate SPARP_env`
+  - `conda create -n Ribo_nano_env python >= 3.8`
+  - `conda activate Ribo_nano_env`
   - `conda install -c bioconda -c conda-forge matplotlib scipy numpy pandas pysam seaborn cycler bowtie cutadapt hdf5 htseq jedi samtools bedtools star subread gffread sh adjusttext bzip2 pigz six tqdm svg-stack ` 
 
 
-
-- This command will create a environment: `SPARP_env`
+- This command will create a environment: `Ribo_nano_env`
 - FLEPSeq2 environment is required
   https://github.com/ZhaiLab-SUSTech/flep_seq2_polya_analysis
 
+___
 ## 1 Nanopore bascalling and obtain the treanscript termination intermediates
 
 ### 1.1 Basecalling
@@ -90,14 +90,17 @@ python extract_read_info.py --inbed {bed} --inbam {sort_bam} --out {read_info}
 
 - `{read_info}: Extraction of information based on read and relative position of exons and introns on the genome.`
 
+___
+## 2. Analyzing `Ribo-nano (monosome~polysome *n+*)` by jupyterlab
+- `run main1_jupyterlab_code.ipynb in the jupyterlab enviroment`
 
 
-## 2. Analyzing monosome~polysome *n+* by jupyterlab
-- `run Step1.ipynb in the jupyterlab enviroment`
+___
+## 3. Analyzing `Ribo-seq profiling` by jupyterlab
+- `run main2_jupyterlab_code.ipynb in the jupyterlab enviroment`
+
 
 ___
 ## Detailed information about this project
 - URL: *url*
-  - Single-molecule Poly(A)-informed Ribosome Profiling (SPARP-seq) Reveals the Dynamic Changes of Poly(A) Tail during Translation
-  - Yi Shu, Juzuo Li, Zhiyuan Sun, Yanping Li, Wenqin Lu, Yanping Long, Xi Chen, Wei Chen, Jixian Zhai
   - *Please cite this article when using this software*
